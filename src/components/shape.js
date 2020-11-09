@@ -6,12 +6,8 @@ class Shape {
   constructor() {
     this.color = "Blue";
   }
-  drawShape() {
-    console.log("Draw shape method");
-  }
-  calculateArea() {
-    console.log("Shape area");
-  }
+  drawShape() {}
+  calculateArea() {}
 }
 
 module.exports = Shape;
