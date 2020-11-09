@@ -7,6 +7,9 @@
 const Shape = require("./shape");
 
 class Circle extends Shape {
+  constructor() {
+    super();
+  }
   calculateArea() {
     console.log("Circle area");
   }
